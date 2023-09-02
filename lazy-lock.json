@@ -1,6 +1,7 @@
 {
   "LuaSnip": { "branch": "master", "commit": "ea7d7ea510c641c4f15042becd27f35b3e5b3c2b" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
+  "fzf-lua": { "branch": "main", "commit": "2632033492cadfbda3a8678d3c3e65d9397e521d" },
   "lazy.nvim": { "branch": "main", "commit": "3ad55ae678876516156cca2f361c51f7952a924b" },
   "lsp-zero.nvim": { "branch": "v2.x", "commit": "f084f4a6a716f55bf9c4026e73027bb24a0325a3" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "dfdd771b792fbb4bad8e057d72558255695aa1a7" },
