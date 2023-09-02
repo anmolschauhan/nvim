@@ -5,9 +5,11 @@ You should have a the directory ~/.config/nvim/<content of this repository>
 This include:
  - lazy plug-in manager
  - tokyonight theme
- - treesitter
- - nvim tree
+ - telescope (for fuzzy finding)
+ - treesitter (for highlighting)
+ - nvim tree (directory tree)
  - mason (for lsp)
+ - lsp-zero (most of the required lsp)
  
 Use ":Mason" then install LSP servers
 
