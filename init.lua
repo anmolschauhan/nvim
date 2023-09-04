@@ -9,5 +9,5 @@ require("set")
 
 
 vim.cmd[[
-    colorscheme tokyonight-night
+    colorscheme carbonfox
 ]]
