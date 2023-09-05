@@ -6,6 +6,20 @@ lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
 end)
 
+lsp.configure('pyright', {
+    settings = {
+        -- See https://github.com/microsoft/pyright/blob/main/docs/settings.md
+        python = {
+            analysis = {
+                autoSearchPaths = true,
+                useLibraryCodeForTypes = true,
+                diagnosticMode = 'openFilesOnly',
+                typeCheckingMode = 'off',
+            },
+        },
+    },
+})
+
 lsp.setup()
 
 require("mason-lspconfig").setup {
