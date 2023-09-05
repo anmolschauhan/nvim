@@ -10,6 +10,8 @@ vim.keymap.set("n", "<Space>g",
 vim.keymap.set("n", "<Space>h",
 "<cmd>lua require('fzf-lua').grep_visual()<CR>", { silent = true })
 
+vim.keymap.set("n", "<Space>w",
+"<cmd>lua require('fzf-lua').grep_cword()<CR>", { silent = true} )
 -- We override the map set by lsp-zero.
 vim.keymap.set("n", "gr",
 "<cmd>lua require('fzf-lua').lsp_finder()<CR>", { silent = true })
